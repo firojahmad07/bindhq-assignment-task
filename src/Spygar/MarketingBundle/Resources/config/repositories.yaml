@@ -1,0 +1,16 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        
+    spygar.company.repository:
+        public: true
+        class: Spygar\MarketingBundle\Repository\CompanyRepository
+        arguments:
+            - '@doctrine'
+
+    spygar.sales.repository:
+        public: true
+        class: Spygar\MarketingBundle\Repository\SalesRepository
+        arguments:
+            - '@doctrine'

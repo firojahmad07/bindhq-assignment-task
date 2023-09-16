@@ -1,0 +1,15 @@
+spygar_marketing_index:
+    path: /
+    controller: spygar_index_controller::index
+
+spygar_company_list:
+    path: /company/list
+    controller: spygar_index_controller::companies
+
+spygar_companies_list_with_sales:
+    path: /companies/sales
+    controller: spygar_index_controller::companiesWithSales
+
+spygar_company_sales:
+    path: /company/{companyId}/sales
+    controller: spygar_index_controller::sales

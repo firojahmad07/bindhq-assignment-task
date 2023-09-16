@@ -1,0 +1,11 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        
+    spygar_index_controller:
+        public: true
+        class: Spygar\MarketingBundle\Controller\IndexController
+        arguments:
+            - '@spygar.company.repository'
+            - '@spygar.sales.repository'

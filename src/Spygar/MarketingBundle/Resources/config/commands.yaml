@@ -1,0 +1,13 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    spygar.feed.dummy_data.commmand:
+        public: true
+        class: Spygar\MarketingBundle\Command\FeedDummyDataCommand
+        arguments:
+            - '@spygar.company.repository'
+            - '@spygar.sales.repository'
+        tags:
+            - { name: 'console.command' }

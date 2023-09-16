@@ -1,0 +1,28 @@
+{
+  "name": "assignment-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.2.0",
+    "file-loader": "^6.2.0",
+    "import-loader": "^1.0.1",
+    "jquery": "^3.6.0",
+    "style-loader": "^1.0.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.8",
+    "vue-multiselect": "^2.1.6",
+    "vue-router": "^3.4.9",
+    "vue-select": "^3.16.0",
+    "vue-style-loader": "^4.1.2",
+    "vuelidate": "^0.7.6",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
